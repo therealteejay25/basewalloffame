@@ -19,7 +19,7 @@ function App() {
               </a>
             </div>
             <div>
-              <button className="bg-gradient-to-r from-main to-main/50 py-2 px-8 text-lg font-semibold text-light rounded-full">
+              <button className="bg-gradient-to-r from-main to-main/50 py-2 px-5 text-lg font-semibold text-light rounded-full">
                 See More
               </button>
             </div>

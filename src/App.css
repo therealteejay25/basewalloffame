@@ -11,5 +11,6 @@
   .bg {
     background: url(./assets/background-mobile.png);
     background-size: contain;
+    background-repeat: repeat;
   }
 }
