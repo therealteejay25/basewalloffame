@@ -37,7 +37,7 @@ function App() {
               </p>
             </div>
             <div>
-              <button className="bg-gradient-to-r lg:mx-[35.2vw] md:w-[25rem] w-72 my-2 mx-[3.7rem] from-main to-main/50 py-2 px-8 text-lg font-semibold text-light rounded-full">
+              <button className="bg-gradient-to-r lg:mx-[35.2vw] md:w-[25rem] w-72 my-2 mx-[2.8rem] from-main to-main/50 py-2 px-8 text-lg font-semibold text-light rounded-full">
                 See more
               </button>
             </div>
