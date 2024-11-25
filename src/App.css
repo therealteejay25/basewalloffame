@@ -1,0 +1,15 @@
+.bg{
+  background: url(./assets/background.png);
+  background-size: contain;
+  background-position: center;
+}
+*{
+  font-family: 'DM Sans', sans-serif;
+}
+
+@media (max-width: 768px) { 
+  .bg {
+    background: url(./assets/background-mobile.png);
+    background-size: contain;
+  }
+}
