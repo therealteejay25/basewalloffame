@@ -1,6 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../assets/Base_Network_Logo.svg'
+import user from '../assets/user.png'
+import helpCircle from '../assets/help-circle.png'
+import mail from '../assets/mail.png'
 
 const Nominate = () => {
   return (
@@ -26,16 +29,33 @@ const Nominate = () => {
           See More
         </button>
       </nav>
-      <div className='h-[30rem] mt-24 bg-light/15 backdrop-blur border border-light/50 rounded-xl'>
+      <div className='h-[30rem] mt-24 lg:w-[25rem] mx-auto bg-light/15 backdrop-blur border p-2 border-light/50 rounded-xl'>
         <form action="">
-            <h2>Nonimate a builder</h2>
-            <div>
-                <label htmlFor="">Name</label>
-                <div>
-                    <input type="text"/>
-                    
+            <h2 className='text-2xl font-semibold text-center text-light py-2'>Nonimate a builder</h2>
+            <div className='p-5'>
+                <label className='text-light' htmlFor="">Name</label>
+                <div className='flex border-b justify-between border-light'>
+                    <input className='bg-transparent outline-none text-light w-72' type="text"/>
+                    <img src={user} className='h-8 pb-1' alt="" />
                 </div>
             </div>
+            <div className='p-5'>
+                <label className='text-light' htmlFor="">Email</label>
+                <div className='flex border-b justify-between border-light'>
+                    <input className='bg-transparent outline-none text-light w-72' type="email"/>
+                    <img src={mail} className='h-8 pb-1' alt="" />
+                </div>
+            </div>
+            <div className='p-5'>
+                <label className='text-light' htmlFor="">Why you should be nominated</label>
+                <div className='flex border-b justify-between border-light'>
+                    <textarea rows={1} className='bg-transparent outline-none text-light w-72' type="text"/>
+                    <img src={helpCircle} className='h-8 pb-1' alt="" />
+                </div>
+            </div>
+            <button className='bg-main lg:mx-24 text-light font-medium px-20 mx-16 mt-16 rounded py-2 text-lg'>
+                Submit
+            </button>
         </form>
       </div>
     </div>
