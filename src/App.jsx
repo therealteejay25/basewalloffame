@@ -27,8 +27,11 @@ function App() {
 
         {/* Hero Section */}
         <section className="text-light text-center flex flex-col items-center justify-center flex-grow px-6 lg:px-32">
+          <h1 className="font-semibold text-2xl p-5 text-main">
+            BASE WALL OF FAME!!!
+          </h1>
           <h2 className="text-2xl w-[22rem] lg:w-[33rem] lg:text-4xl font-semibold">
-            Meet the Innovators Powering the Base Ecosystem
+            Celebrate the builders creating magic on base since day one.
           </h2>
           <p className="text-sm lg:text-md leading-6 px-6 max-w-screen-md mt-4">
             Discover the visionary builders behind Base, the Layer 2 blockchain
