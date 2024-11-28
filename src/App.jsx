@@ -5,7 +5,6 @@ function App() {
   return (
     <>
      <div className="scroll min-h-screen">
-       {/* Background Section */}
        <div className="bg flex flex-col justify-between items-center min-h-screen w-full">
         {/* Navigation Bar */}
         <nav className="bg-black/25 z-50 fixed top-0 left-0 w-full flex justify-between items-center backdrop-blur-lg shadow-lg p-2 lg:rounded-full lg:max-w-[70%] lg:ml-56 lg:mt-5">
@@ -14,14 +13,14 @@ function App() {
           {/* Navigation Links */}
           <div className="flex space-x-3 text-light text-sm lg:text-base font-semibold">
             <a className="hover:text-main transition" href="#founder">
-              Founder
+              About
             </a>
             <a className="hover:text-main transition" href="#builders">
               Builders
             </a>
           </div>
           {/* Call-to-Action Button */}
-          <button className="bg-gradient-to-r from-main to-main/50 py-2 px-5 text-sm lg:text-lg font-semibold text-light rounded-full">
+          <button className="bg-gradient-to-r from-main to-main/50 py-2 px-5 text-sm lg:text-lg font-semibold z-0 text-light rounded-full">
             See More
           </button>
         </nav>
@@ -46,8 +45,8 @@ function App() {
 
       {/* Secondary Plain Background Section */}
       <div className="bg-plain flex items-center justify-center h-screen w-full">
-        <p className="text-light text-lg text-center">
-          More content goes here. Add details about the builders or other sections.
+        <p className="text-light font-semibold text-lg text-center">
+          More content goes here. <br /> Still in development.
         </p>
       </div>
      </div>
